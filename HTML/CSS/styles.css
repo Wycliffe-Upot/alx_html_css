@@ -1,0 +1,99 @@
+body
+{
+    border: 3px solid black;
+    height: 100vh;
+    padding: 10px;
+}
+
+header
+{
+border: 2px solid black;
+height:100px;
+overflow: hidden;
+padding: 5px;
+}
+
+header div
+{
+    border: 1px solid black;
+    /*height: inherit;*/
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.company-logo
+{
+    border: 1px solid red;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.company-logo a
+{
+border: 1px solid green;
+width: inherit;
+display: flex;
+justify-content: center;
+}
+
+#nav-links
+{
+  width: 400px;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;  
+}
+
+#nav-links a
+{
+    border: 1px solid red;
+    width: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main
+{
+    border: 2px solid black;
+    height: inherit;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+main section
+{
+    border:1px solid black;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-section div
+{
+    border: 1px solid black;
+    width: 20%;
+    padding: 0;
+    height:150;
+}
+
+#hero-section div h1
+{
+    border: 1px solid blue;
+    margin: 0;
+}
+
+#hero-section div p
+{
+    border: 1px solid purple;
+    margin:0;
+}
+
+#hero-section div button
+{
+    border: 1px solid orangered;
+}
