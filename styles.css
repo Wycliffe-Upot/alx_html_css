@@ -1,0 +1,57 @@
+body
+{
+    border:3px solid black;
+    height: 100vh;
+    parding: 5px;
+    
+}
+
+header
+{
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    
+}
+
+main {
+  
+    flex-direction: row;
+    flex: auto
+   
+}
+
+.column {
+    float: left;
+    padding: 12px;
+    height: 80vh;
+    overflow-y: auto
+}
+
+.column 2 right-side {
+    font: red;
+    width:25%;
+    flex: 1;
+    overflow-y: auto
+}
+
+.both-rows:after {
+    content: "";
+    display:table;
+    clear: both;
+    
+}
+
+footer
+{
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 80;
+    display: flex; 
+    overflow: hidden; 
+}
